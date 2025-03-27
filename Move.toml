@@ -1,0 +1,15 @@
+[package]
+name = "NGO-funding"
+version = "1.0.0"
+authors = []
+
+[addresses]
+NGO =  "0x40b0861f1a0565f2fa855c056617184b372e12bbbe7a36302e1c23cc230e5b60"
+[dev-addresses]
+
+[dependencies.AptosFramework]
+git = "https://github.com/aptos-labs/aptos-framework.git"
+rev = "mainnet"
+subdir = "aptos-framework"
+
+[dev-dependencies]
